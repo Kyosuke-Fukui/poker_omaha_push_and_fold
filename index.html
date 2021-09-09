@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poker push or fold</title>
+    <style>
+        h1,
+        h3 {
+            text-align: center;
+        }
+
+        div {
+            margin: 0 auto;
+        }
+
+        div#communityCard {
+            width: 340px;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 60px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Omaha Push and Fold</h1>
+    <div style="height:450px;">
+        <h3>コミュニティカード</h3>
+        <div id="communityCard">
+            <img id="flop1" size="5">
+            <img id="flop2" size="5">
+            <img id="flop3" size="5">
+            <img id="turn" size="5">
+            <img id="river" size="5">
+        </div>
+
+        <div style="display: flex;">
+            <div>
+                <h3>自分の手札</h3>
+                <div>
+                    <img id="myhand1" size="5">
+                    <img id="myhand2" size="5">
+                    <img id="myhand3" size="5">
+                    <img id="myhand4" size="5">
+                </div>
+                <h3 id="myResult"></h3>
+            </div>
+            <div>
+                <h3>相手の手札</h3>
+                <div>
+                    <img id="opphand1" size="5">
+                    <img id="opphand2" size="5">
+                    <img id="opphand3" size="5">
+                    <img id="opphand4" size="5">
+                </div>
+                <h3 id="oppResult"></h3>
+            </div>
+        </div>
+    </div>
+
+    <div style="width:150px; display: flex; justify-content: space-between;">
+        <button id="start">New Game</button>
+        <button id="result">Result</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
