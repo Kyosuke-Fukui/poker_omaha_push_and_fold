@@ -1,4 +1,4 @@
-# poker_omaha_push_and_fold
+# poker_omaha_push_or_fold
 オマハポーカー（プッシュアンドフォールド）
 
 ![image](https://user-images.githubusercontent.com/79554085/132606604-3055c5d1-1410-4e9f-b521-3392be448b49.png)
